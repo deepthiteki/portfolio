@@ -9,7 +9,7 @@ const about = {
   role: 'Software Developer',
   description:
     'Currently pursuing B.tech(7th semester) in Computer Science Engineering with specilization in Artificial Intelligence from Jain University,Bengaluru',
-  resume: 'https://drive.google.com/file/d/1dnlmbkbVh_NcHIjHAVbLbYLqRdYlnpJ2/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1mwjf18QsnzA7889cc2TSCNLCXeDcidXS/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/deepthi-teki-49869b16a/',
     github: 'https://github.com/deepthiteki',
@@ -25,7 +25,7 @@ const projects = [
       'Predicts ratings of the books based on the reader\'s past ratings.',
     stack: ['Python', 'Tensorflow', 'React'],
     sourceCode: 'https://github.com/deepthiteki/book-recommender-system',
-    // livePreview: 'https://github.com',
+    livePreview: 'https://book-reco.herokuapp.com/',
   },
   {
     name: 'CRUD',
@@ -41,7 +41,7 @@ const projects = [
       'Shortens url making it easier to share',
     stack: ['Node.js', 'React'],
     sourceCode: 'https://github.com/deepthiteki/url-shortener',
-    // livePreview: 'https://github.com',
+    livePreview: 'https://urlshortie.herokuapp.com/',
   },
   {
     name: 'Exercise-tracker',
@@ -49,7 +49,7 @@ const projects = [
       'tracks and maintains record of workout',
     stack: ['Node.js', 'React','MongoDB'],
     sourceCode: 'https://github.com/deepthiteki/exercisetracker',
-    // livePreview: 'https://github.com',
+    livePreview: 'https://workout-l.herokuapp.com/',
   },
   {
     name: 'WordCloud Generator',
@@ -76,6 +76,7 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
+  'Node Js',
   'Machine Learning',
 ]
 
