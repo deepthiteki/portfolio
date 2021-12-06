@@ -20,6 +20,14 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Backend Developer Intern',
+    description:
+      'Backend Development Internship at Verzeo Edutech pvt ltd. worked on CRM, Hiring management system and a community social media.',
+    stack: ['NodeJs','MongoDB'],
+    // sourceCode: 'https://github.com/deepthiteki/book-recommender-system',
+    // livePreview: 'https://book-reco.herokuapp.com/',
+  },
+  {
     name: 'Book-Recommender System',
     description:
       'Predicts ratings of the books based on the reader\'s past ratings.',
@@ -27,14 +35,14 @@ const projects = [
     sourceCode: 'https://github.com/deepthiteki/book-recommender-system',
     livePreview: 'https://book-reco.herokuapp.com/',
   },
-  {
-    name: 'CRUD',
-    description:
-      'CRUD operations with mongoDB and Node.js',
-    stack: ['Node.js','MongoDB'],
-    sourceCode: 'https://github.com/deepthiteki/crud-operations',
-    // livePreview: 'https://github.com',
-  },
+  // {
+  //   name: 'CRUD',
+  //   description:
+  //     'CRUD operations with mongoDB and Node.js',
+  //   stack: ['Node.js','MongoDB'],
+  //   sourceCode: 'https://github.com/deepthiteki/crud-operations',
+  //   // livePreview: 'https://github.com',
+  // },
   {
     name: 'url-shortener',
     description:
@@ -51,12 +59,20 @@ const projects = [
     sourceCode: 'https://github.com/deepthiteki/exercisetracker',
     livePreview: 'https://workout-l.herokuapp.com/',
   },
+  // {
+  //   name: 'WordCloud Generator',
+  //   description:
+  //     'takes .txt file as input and generates wordcloud representing the frequency of significant words.',
+  //   stack: ['Python'],
+  //   sourceCode: 'https://github.com/deepthiteki/WordCloudGenerator',
+  //   // livePreview: 'https://github.com',
+  // },
   {
-    name: 'WordCloud Generator',
+    name: 'Backend for e-commerce website-Freelance Project(NJ silks)',
     description:
-      'takes .txt file as input and generates wordcloud representing the frequency of significant words.',
-    stack: ['Python'],
-    sourceCode: 'https://github.com/deepthiteki/WordCloudGenerator',
+      'Built backend using Node.js and MongoDB for an Indian clothing e-commerce website.',
+    stack: ['Node.js','MongoDB'],
+    // sourceCode: 'https://github.com/deepthiteki/WordCloudGenerator',//change it
     // livePreview: 'https://github.com',
   }
 
