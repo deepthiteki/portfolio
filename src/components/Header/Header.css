@@ -4,6 +4,7 @@
   width: 95%;
   margin: 0 auto;
   justify-content: space-between;
+  font-family: 'Neonderthaw', cursive;
 }
 
 @media (max-width: 600px) {

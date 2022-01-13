@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  title: 'DT.'
+  title: 'DeepthiTeki'
 }
 
 const about = {
@@ -15,18 +15,35 @@ const about = {
     github: 'https://github.com/deepthiteki',
   },
 }
-
-const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
+const internships = [
   {
     name: 'Backend Developer Intern',
     description:
       'Backend Development Internship at Verzeo Edutech pvt ltd. worked on CRM, Hiring management system and a community social media.',
-    stack: ['NodeJs','MongoDB'],
+    stack: ['NodeJs','MongoDB','AWS'],
     // sourceCode: 'https://github.com/deepthiteki/book-recommender-system',
     // livePreview: 'https://book-reco.herokuapp.com/',
   },
+  {
+    name: 'Backend for e-commerce website-Freelance Project(NJ silks)',
+    description:
+      'Built backend using Node.js and MongoDB for an Indian clothing e-commerce website.',
+    stack: ['Node.js','MongoDB'],
+    // sourceCode: 'https://github.com/deepthiteki/WordCloudGenerator',//change it
+    // livePreview: 'https://github.com',
+  }
+]
+const projects = [
+  // projects can be added an removed
+  // if there are no projects, Projects section won't show up
+  // {
+  //   name: 'Backend Developer Intern',
+  //   description:
+  //     'Backend Development Internship at Verzeo Edutech pvt ltd. worked on CRM, Hiring management system and a community social media.',
+  //   stack: ['NodeJs','MongoDB','AWS'],
+  //   // sourceCode: 'https://github.com/deepthiteki/book-recommender-system',
+  //   // livePreview: 'https://book-reco.herokuapp.com/',
+  // },
   {
     name: 'Book-Recommender System',
     description:
@@ -67,14 +84,14 @@ const projects = [
   //   sourceCode: 'https://github.com/deepthiteki/WordCloudGenerator',
   //   // livePreview: 'https://github.com',
   // },
-  {
-    name: 'Backend for e-commerce website-Freelance Project(NJ silks)',
-    description:
-      'Built backend using Node.js and MongoDB for an Indian clothing e-commerce website.',
-    stack: ['Node.js','MongoDB'],
-    // sourceCode: 'https://github.com/deepthiteki/WordCloudGenerator',//change it
-    // livePreview: 'https://github.com',
-  }
+  // {
+  //   name: 'Backend for e-commerce website-Freelance Project(NJ silks)',
+  //   description:
+  //     'Built backend using Node.js and MongoDB for an Indian clothing e-commerce website.',
+  //   stack: ['Node.js','MongoDB'],
+  //   // sourceCode: 'https://github.com/deepthiteki/WordCloudGenerator',//change it
+  //   // livePreview: 'https://github.com',
+  // }
 
 ]
 
@@ -101,4 +118,4 @@ const contact = {
   email: 'deepthi.teki09@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact, internships }

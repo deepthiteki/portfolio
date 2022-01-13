@@ -21,7 +21,7 @@ const About = () => {
         {resume && (
           <a href={resume} target="_blank" rel="noreferrer noopener">
             <span type='button' className='btn btn--outline'>
-              Resume
+              Download Resume
             </span>
           </a>
         )}
@@ -39,7 +39,7 @@ const About = () => {
               </a>
             )}
 
-            {social.linkedin && (
+            {/* {social.linkedin && (
               <a
                 href={social.linkedin}
                 aria-label='linkedin'
@@ -48,7 +48,7 @@ const About = () => {
               >
                 <LinkedInIcon />
               </a>
-            )}
+            )} */}
           </>
         )}
       </div>
