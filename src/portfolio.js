@@ -60,20 +60,48 @@ const projects = [
   //   sourceCode: 'https://github.com/deepthiteki/crud-operations',
   //   // livePreview: 'https://github.com',
   // },
-  {
-    name: 'url-shortener',
-    description:
-      'Shortens url making it easier to share',
-    stack: ['Node.js', 'React'],
-    sourceCode: 'https://github.com/deepthiteki/url-shortener',
-    livePreview: 'https://urlshortie.herokuapp.com/',
-  },
+  // {
+  //   name: 'url-shortener',
+  //   description:
+  //     'Shortens url making it easier to share',
+  //   stack: ['Node.js', 'React'],
+  //   sourceCode: 'https://github.com/deepthiteki/url-shortener',
+  //   livePreview: 'https://urlshortie.herokuapp.com/',
+  // },
   {
     name: 'Exercise-tracker',
     description:
       'tracks and maintains record of workout',
     stack: ['Node.js', 'React','MongoDB'],
     sourceCode: 'https://github.com/deepthiteki/exercisetracker',
+    livePreview: 'https://workout-l.herokuapp.com/',
+  },
+  {
+    name: 'Analisi',
+    description:
+      'Keeps a track of daily activity, by sending hourly reminders to journal and visualizes it,helping in maintaining a balanced lifestyle',
+    stack: ['Node.js', 'React','MongoDB', 'ReactJs'],
+    frontEnd: ``,
+    backEnd: ``,
+    // sourceCode: 'https://github.com/deepthiteki/exercisetracker',
+    livePreview: 'https://workout-l.herokuapp.com/',
+  },
+  {
+    name: 'Restaurant Billing System',
+    description:'A web application that provides a simple way to place orders',
+    stack: ['Node.js', 'React','MongoDB', 'ReactJs'],
+    frontEnd: ``,
+    backEnd: ``,
+    // sourceCode: 'https://github.com/deepthiteki/exercisetracker',
+    livePreview: 'https://workout-l.herokuapp.com/',
+  },
+  {
+    name: 'Tribe',
+    description:'A social media web application where we can join any community or can create our own.',
+    stack: ['Node.js', 'React','MongoDB', 'ReactJs'],
+    frontEnd: ``,
+    backEnd: ``,
+    // sourceCode: 'https://github.com/deepthiteki/exercisetracker',
     livePreview: 'https://workout-l.herokuapp.com/',
   },
   // {

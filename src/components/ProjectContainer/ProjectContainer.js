@@ -18,10 +18,30 @@ const ProjectContainer = ({ project }) => (
       </ul>
     )}
 
-    {project.sourceCode && (
+    {/* {project.sourceCode && (
       <a
         href={project.sourceCode}
         aria-label='source code'
+        className='link link--icon'
+        target="_blank" rel="noreferrer noopener"
+      >
+        <GitHubIcon />
+      </a>
+    )} */}
+    {project.sourceCode && (
+      <a
+        href={project.frontEnd}
+        aria-label='front-end source code'
+        className='link link--icon'
+        target="_blank" rel="noreferrer noopener"
+      >
+        <GitHubIcon />
+      </a>
+    )}
+    {project.sourceCode && (
+      <a
+        href={project.backEnd}
+        aria-label='backend source code'
         className='link link--icon'
         target="_blank" rel="noreferrer noopener"
       >
