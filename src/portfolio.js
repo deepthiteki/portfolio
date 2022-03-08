@@ -9,7 +9,7 @@ const about = {
   role: 'Software Developer',
   description:
     'Currently pursuing B.tech(7th semester) in Computer Science Engineering with specilization in Artificial Intelligence from Jain University,Bengaluru',
-  resume: 'https://drive.google.com/file/d/1vfxlzm4izQVjuDpk-yI3Y9fBn3zav8Jp/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1WMn-cQaXuYd4fe1UVxkKFcfR9ILq3iE1/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/deepthi-teki-49869b16a/',
     github: 'https://github.com/deepthiteki',
